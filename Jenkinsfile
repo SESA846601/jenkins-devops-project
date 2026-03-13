@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/SESA846601/devops-jenkins-project.git'
+                git 'https://github.com/SESA846601/jenkins-devops-project'
             }
         }
 
